@@ -17,3 +17,44 @@ for (const iterator of "umer is good") {
     console.log(iterator)
     
 }
+
+// JUST DONT PRINT THIS ONE   // in here condition will be alkways true
+// for(let y=150;y>100;y++){
+//     console.log(y)
+// }
+
+
+ // while loop
+
+// while (o=1,o<=10) {
+//     console.log("Umer is greatest of all time")
+//     o++
+// }
+
+// Do--while loop
+let new1=0;  
+do {
+    console.log("What are you doing");
+    new1++;
+
+} while (new1<=10);
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
