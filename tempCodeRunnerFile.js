@@ -1,2 +1,8 @@
-result = student_marks[0]+student_marks[1]+student_marks[2]+student_marks[3]+student_marks[4];
-// console.log(result/student_marks)
+let nam=[250,645,300,900,50]
+// let i=0;
+
+// for (const inter of nam) {
+//     let offer = inter/10
+//     nam[i]=nam[i]-offer
+//    console.log(`The value after discount is ${nam[i]}`)
+// }

@@ -38,3 +38,55 @@ for (const city of cities) {
     console.log(city.toUpperCase());
     
 }
+
+// POP,PUSH,toString
+// array can be change or changed in array
+
+let loe=["Umer","Kounsain","Arsheda","Latham"]
+loe.push("Assadullah","Trench")// push
+let res=loe.push("nighta")
+console.log(loe)
+
+//pop
+let o=["umer ","loop","virat","rohit sharma"]
+let rees=o.pop()
+console.log(o)
+console.log("The deleted variable is ",rees)
+
+// to string 
+console.log(o.toString())
+
+//to join mutiple array
+console.log(o.concat(loe,cities))
+//or
+let joined=o.concat(loe,cities)
+console.log(joined)
+
+//to add the indixes in array
+
+let superHeros=["Spiderman","Shaktiman","Krishna"]
+superHeros.unshift("Antman")
+console.log(superHeros)
+
+//to remove the indixes in array
+let del=superHeros.shift("")
+console.log(`The deleted val is${del}`)
+console.log(superHeros)
+//SLICE
+let slie=superHeros.slice(0,2)
+console.log(slie)
+
+//splice
+let familyMember=["Umer","Kounsain","Wasif","John","Alvarez"]
+var splic=familyMember.splice(1,0,"Ara")
+console.log(familyMember)
+var splic=familyMember.splice(1,1,"Tar")
+console.log(familyMember)
+
+//Example
+let companies=["Bloomberg","Microsoft","Uber","Google","IBM","Netflix"]
+let dele=companies.shift()
+let change=companies.splice(1,1,"OLA")
+let neew=companies.push("Amazon")
+console.log(companies)
+
