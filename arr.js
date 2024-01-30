@@ -42,16 +42,16 @@ console.log(array)
 // POP,PUSH,toString
 // array can be change or changed in array
 
-// let loe=["Umer","Kounsain","Arsheda","Latham"]
-// loe.push("Assadullah","Trench")// push
-// let res=loe.push("nighta")
-// console.log(loe)
+let loee=["Umer","Kounsain","Arsheda","Latham"]
+loee.push("Assadullah","Trench")// push
+let ress=loee.push("nighta")
+console.log(loee)
 
 //pop
-// let o=["umer ","loop","virat","rohit sharma"]
-// let rees=o.pop()
-// console.log(o)
-// console.log("The deleted variable is ",rees)
+let oo=["umer ","loop","virat","rohit sharma"]
+let reees=oo.pop()
+console.log(oo)
+console.log("The deleted variable is ",reees)
 
 // to string 
 // console.log(o.toString())
@@ -64,11 +64,11 @@ console.log(array)
 
 //to add the indixes in array
 
-// let supereHeros=["Spiderman","Shaktiman","Krishna"]
-// superHeros.unshift("Antman")
-// console.log(supereHeros)
+let supereHeros=["Spiderman","Shaktiman","Krishna"]
+supereHeros.unshift("Antman")
+console.log (supereHeros)
 
-//to remove the indixes in array
+// to remove the indixes in array
 // let deel=superHeros.shift("")
 // console.log(`The deleted val is${deel}`)
 // console.log(superHeros)
@@ -84,8 +84,8 @@ console.log(array)
 // console.log(familyyMember)
 
 //Example
-let companiies=["Bloomberg","Microsoft","Uber","Google","IBM","Netflix"]
-let delee=companiies.shift()
-let channge=companiies.splice(1,1,"OLA")
-let neeew=companiies.push("Amazon")
-console.log(companiies)
+let opam=["Bloomberg","Microsoft","Uber","Google","IBM","Netflix"]
+let delee=opam.shift()
+let channge=opam.splice(1,1,"OLA")
+let neeew=opam.push("Amazon");
+console.log(opam)
